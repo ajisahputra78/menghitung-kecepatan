@@ -1,0 +1,17 @@
+﻿<Window x:Name="Currency_Apps" x:Class="CurrencyApps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyApps"
+        mc:Ignorable="d"
+        Title="Currency Apps" Height="406.554" Width="407.4">
+    <Grid Margin="0,0,386,0">
+        <Label Content="$ USD" HorizontalAlignment="Left" Margin="164,22,-247.5,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <TextBox x:Name="InputTextBox" HorizontalAlignment="Left" Height="44" Margin="54,58,-354.5,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Text="0" FontSize="30"/>
+        <Label Content="Nilai tukar rupiah (Rp)" HorizontalAlignment="Left" Margin="105,193,-305.5,0" VerticalAlignment="Top" Width="217" FontSize="20" RenderTransformOrigin="0.583,-0.092"/>
+        <Label x:Name="resultLabel" Content="0" HorizontalAlignment="Left" Margin="54,251,-354.5,0" VerticalAlignment="Top" Width="317" FontSize="30" Height="46"/>
+        <Button Content="Hitung" HorizontalAlignment="Left" Margin="137,128,-271.5,0" VerticalAlignment="Top" Width="151" Click="Button_Hitung_Click" Height="45"/>
+
+    </Grid>
+</Window>
